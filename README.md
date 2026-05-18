@@ -1,2 +1,4 @@
 # ap-csa-2026-frqs
-AP CSA 2026
+My Solutions to the AP CSA Exam
+
+* swsw
