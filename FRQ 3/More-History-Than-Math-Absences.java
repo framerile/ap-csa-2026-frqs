@@ -5,7 +5,7 @@ public int moreHistoryThanMathAbsences(){
         CourseRecord curH = historyList.get(i);
         
         for(int j = 0; j < mathList.size(); j++){
-            CourseRecord curM = historyList.get(i);
+            CourseRecord curM = mathList.get(j);
           
             if(curH.getStudentID().equals( curM.getStudentID() )){
               if(curH.getAbsences() > curM.getAbsences()) num++;
