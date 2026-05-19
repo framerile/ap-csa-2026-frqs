@@ -13,8 +13,8 @@ public class Bottle{
             return capacity;
         }
 
-        fill -= taken;
-        return fill;
+        filled -= taken;
+        return filled;
     }
   
 }
